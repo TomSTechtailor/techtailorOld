@@ -1,3 +1,19 @@
 [[redirects]]
   from = "/"
   to = "https://techtailor.io"
+
+[[redirects]]
+  from = "https://techtailor.co/"
+  to = "https://techtailor.io"
+
+[[redirects]]
+  from = "https://techtailor.co"
+  to = "https://techtailor.io"
+
+[[redirects]]
+  from = "https://www.techtailor.co/"
+  to = "https://techtailor.io"
+
+[[redirects]]
+  from = "https://www.techtailor.co"
+  to = "https://techtailor.io"
