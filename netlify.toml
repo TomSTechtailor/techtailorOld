@@ -1,19 +1,29 @@
 [[redirects]]
   from = "/"
   to = "https://techtailor.io"
+    status = 301
+    force = true
 
 [[redirects]]
   from = "https://techtailor.co/"
   to = "https://techtailor.io"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://techtailor.co"
   to = "https://techtailor.io"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://www.techtailor.co/"
   to = "https://techtailor.io"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://www.techtailor.co"
   to = "https://techtailor.io"
+  status = 301
+  force = true
