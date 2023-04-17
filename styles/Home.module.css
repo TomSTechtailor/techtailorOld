@@ -1,0 +1,103 @@
+.button {
+  font-size: 0.8125em;
+  line-height: 19px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  display: inline-block;
+  color: rgb(255, 255, 255) !important;
+  background: rgb(9, 113, 241);
+  border-radius: 0.125rem;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 2px 21px;
+  text-decoration: none;
+  transition: all 200ms ease 0s;
+  padding: 0.75rem 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.button:active,
+.button:hover {
+  outline-width: 0;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+  transform: scale(1.05);
+}
+
+.button:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+  transform: scale(1);
+}
+
+.careersLink {
+  font-size: 13px;
+  line-height: 0.8125rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: rgb(153, 153, 153);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 64px 0 24px;
+  flex-wrap: wrap;
+}
+
+.logosWrapper > img {
+  margin-right: 24px;
+}
+
+.logosWrapper > img:last-child {
+  margin-right: 0;
+}
+
+.secondaryText {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .logos {
+    width: 100vw;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .logosWrapper > img {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .logosWrapper > img:last-child {
+    margin-right: 0;
+  }
+
+  .logosWrapper {
+    padding: 16px;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .subtitle {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 48px;
+  }
+}
